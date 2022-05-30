@@ -1,5 +1,5 @@
-
 ## Procedure
+
 - clone starter project
 - install npm i -D hardhat
 - initialize hardhat: npx hardhat
@@ -14,11 +14,17 @@
 - save the MarketSentiment deployed address to: x
 - To verify your contract(Optional): `npx hardhat verify 0x7f7825eBE22dCC9b4935848e2b47f79EaF376aD3 --network mumbai`
 - we can use the polygon interface to interact with our contract to add tickers & vote for them https://mumbai.polygonscan.com/address/0xE0999E5f5dbF69Ee22dCaCaF012977cB49a118E7#readContract
+- add frontend bubbles and moralis api was added to index.js file (appId, serverUrl) You can get/make one server from https://admin.moralis.io/servers & copy (appId, serverUrl)
 
+- Create a server that syncs with the smart contract & moralis db. Constantly keep looking @ the smart contract transaction & it will be record them on moralis database server. To create one go to https://admin.moralis.io/servers
+  To create one follow this video https://youtu.be/MI_Se26Sfmo?t=3095
+
+- queries Vote class & creates a subscription on any oralis rows update. Then gets an obj to check if the update is on ETH, LINK, or BTC
+
+- deployed to Netlify
 
 
 # Basic Sample Hardhat Project
-
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
