@@ -1,3 +1,9 @@
+# website
+
+Use this website as ideas to create your app version of your own ideas
+
+https://token-sentiment-voter.web.app/
+
 ## Procedure
 
 - clone starter project
@@ -22,7 +28,6 @@
 - queries Vote class & creates a subscription on any oralis rows update. Then gets an obj to check if the update is on ETH, LINK, or BTC
 
 - deployed to Netlify
-
 
 # Basic Sample Hardhat Project
 
