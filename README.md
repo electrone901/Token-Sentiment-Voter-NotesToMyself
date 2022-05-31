@@ -4,7 +4,8 @@ Use this website as ideas to create your app version of your own ideas
 
 https://token-sentiment-voter.web.app/
 
-[Home Page]()
+![Home Page](https://raw.githubusercontent.com/electrone901/Token-Sentiment-Voter-NotesToMyself/main/src/images/home.png)
+
 ## Procedure
 
 - clone starter project
